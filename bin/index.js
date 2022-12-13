@@ -4,10 +4,10 @@ import { upload } from './upload.js';
 
 program
   .description('SportIT CLI tool')
-  .version('1.0.0');
+  .version('1.0.7');
 
 program
-  .command('upload [version]')
+  .command('upload')
   .alias('u')
   .description('Upload a new bundle to the server')
   .action(upload)

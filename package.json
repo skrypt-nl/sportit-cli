@@ -1,24 +1,22 @@
 {
-  "name": "sportit-npx",
-  "version": "1.0.0",
-  "description": "npx tool for the SportIT project",
-  "main": "index.js",
+  "name": "sportit-cli",
   "type": "module",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "version": "1.0.8",
+  "description": "CLI tool for the SportIT project",
+  "main": "index.js",
   "author": "Skrypt",
   "license": "ISC",
   "bin": {
     "sportit": "bin/index.js"
   },
   "dependencies": {
+    "@capacitor/cli": "^4.6.1",
     "adm-zip": "^0.5.9",
+    "axios": "^1.2.1",
     "commander": "^9.4.1",
     "form-data": "^4.0.0"
   },
   "devDependencies": {
-    "@types/node": "^18.11.13",
-    "axios": "^1.2.1"
+    "@types/node": "^18.11.13"
   }
 }
